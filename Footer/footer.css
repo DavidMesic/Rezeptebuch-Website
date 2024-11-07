@@ -1,0 +1,53 @@
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .footer-logo {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+footer .footer-content div {
+    text-align: left;
+}
+
+footer .footer-content h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+footer .footer-content p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+footer .footer-content a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer .footer-content a:hover {
+    color: #ddd;
+}
+
+footer .copyright {
+    font-size: 14px;
+    opacity: 0.8;
+    margin-top: 10px;
+}

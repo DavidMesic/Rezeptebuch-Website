@@ -1,0 +1,81 @@
+/* Grundlegendes Styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f3f3;
+}
+
+
+
+#header, #footer {
+    flex-shrink: 0;
+}
+
+
+
+
+
+/* Quellen-Box Styling */
+
+.quelle-box {
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 300px;
+    padding: 20px;
+
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.citation-box h2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+
+
+.source p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+
+
+.website-name {
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+
+
+.source a {
+    color: #5c9ded;
+    text-decoration: none;
+}
+
+
+
+.source a:hover {
+    text-decoration: underline;
+}

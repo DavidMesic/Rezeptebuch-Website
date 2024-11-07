@@ -1,0 +1,74 @@
+/* Grundlegendes Styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
+
+
+/* Homepage Styling */
+
+.homepage {
+    display: flex;
+    align-items: center;
+    margin: 100px;
+}
+
+
+
+.homepage img {
+    margin-right: 30px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.homepage-text {
+    text-align: center;
+}
+
+
+
+.homepage-text p {
+    margin-bottom: 50px;
+    font-size: 25.5px;
+}
+
+
+
+.homepage-text a {
+    padding: 15px 40px;
+    background-color: #007BFF;
+
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+
+.homepage-text a:hover {
+    background-color: #0056b3;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,52 @@
+/* Grundlegendes Styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
+
+
+/* Content Sytling */
+
+.rezept {
+    margin: 100px;
+    text-align: center;
+}
+
+
+
+.rezept h2 {
+    margin-top: 100px;
+}
+
+
+
+.rezept #Zutaten {
+    margin-bottom: 40px;
+}
+
+
+
+.rezept h3 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+
+
+.rezept img {
+    margin-top: 40px;
+    margin-bottom: 100px;
+}

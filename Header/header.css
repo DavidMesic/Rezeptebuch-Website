@@ -1,0 +1,129 @@
+/* Header Styling */
+
+header {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 20px;
+    color: white;
+}
+
+
+
+header .logo {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+
+.spacer {
+    flex-grow: 0.24;
+}
+
+
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+
+
+header nav ul li a:hover {
+    background-color: #444;
+}
+
+
+
+
+
+/* Hamburger-Menu Styling */
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    margin-left: auto;
+    padding: 10px;
+}
+
+
+
+.line {
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    margin: 4px 0;
+}
+
+
+
+.menu {
+    display: none;
+    position: absolute;
+    text-align: center;
+    top: 70px;
+    right: 20px;
+    background-color: #444;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+
+
+.menu.active {
+    display: block;
+}
+
+
+
+.menu ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+
+
+.menu ul li {
+    margin: 10px 0;
+}
+
+
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: block;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+
+
+.menu ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
